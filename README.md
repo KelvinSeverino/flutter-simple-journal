@@ -1,4 +1,8 @@
-Flutter Simple Journal. 
+## 🔨 Projeto: Simple Journal
+
+O código de Flutter: Web API - Integrando sua Aplicação são **Classes** e **Funções** para gerar uma aplicação de um **Diário pessoal**, que **registra entradas diárias** da pessoa usuária do aplicativo.
+
+![GIF animado demonstrando funcionalidades do projeto](https://github.com/KelvinSeverino/flutter-simple-journal/blob/main/gif01.gif)
 
 ## ✔️ Técnicas e tecnologias
 
@@ -8,12 +12,6 @@ Flutter Simple Journal.
 - `async/await`: Como usar o `async` e o `await` para requisições que são operações assíncronas;
 - `interceptors`: Biblioteca de Interceptador HTTP;
 - `logger`: Biblioteca de logger para melhor visualização no console;
-
-## 🔨 Projeto: Simple Journal
-
-O código de Flutter: Web API - Integrando sua Aplicação são **Classes** e **Funções** para gerar uma aplicação de um **Diário pessoal**, que **registra entradas diárias** da pessoa usuária do aplicativo.
-
-![GIF animado demonstrando funcionalidades do projeto](https://github.com/KelvinSeverino/flutter-simple-journal/gif01.gif)
 
 ## 🛠️ Abrir e rodar o projeto
 
