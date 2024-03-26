@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webapi_first_course/helpers/weekday.dart';
 import 'package:flutter_webapi_first_course/models/journal.dart';
+import 'package:flutter_webapi_first_course/screens/commom/confirmation_dialog.dart';
 import 'package:flutter_webapi_first_course/services/journal_service.dart';
 import 'package:uuid/uuid.dart';
 
@@ -153,15 +154,24 @@ class JournalCard extends StatelessWidget {
     JournalService service = JournalService();
 
     if (journal != null) {
-      service.delete(journal!.id).then((value) {
+      showConfirmationDialog(
+        context,
+        content:
+            "Deseja realmente apagar o registro do dia ${WeekDay(journal!.createdAt)}?",
+        affirmativeOption: "Remover",
+      ).then((value) {
         if (value) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text("Removido com sucesso!"),
-            ),
-          );
+          service.delete(journal!.id).then((value) {
+            if (value) {
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                  content: Text("Removido com sucesso!"),
+                ),
+              );
 
-          refreshFunction();
+              refreshFunction();
+            }
+          });
         }
       });
     }
