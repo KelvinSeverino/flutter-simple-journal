@@ -5,18 +5,5 @@
       "content": "Hello World!"
     }
   ],
-  "journals": [
-    {
-      "id": "88373540-58b2-1f2f-ba0b-df8f2a9cfef4",
-      "content": "foi",
-      "created_at": "2024-03-24 14:18:05.688648",
-      "updated_at": "2024-03-24 14:18:05.688648"
-    },
-    {
-      "id": "19805820-a656-1f33-888b-c5e8a562d758",
-      "content": "qualquer coisa!",
-      "created_at": "2024-03-18 23:56:50.399203",
-      "updated_at": "2024-03-18 23:56:50.399203"
-    }
-  ]
+  "journals": []
 }
