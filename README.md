@@ -20,8 +20,8 @@ O código de Flutter: Web API - Integrando sua Aplicação são **Classes** e **
 - Ter uma IDE [Android Studio](https://developer.android.com/) instalado na sua máquina;
 - Ter a [SDK do Flutter](https://docs.flutter.dev/get-started/install) na versão 3.0.0;
 - Ter o [Node.JS](https://nodejs.org/en/) instalado na sua máquina;
-- Ter um servidor [JSON-Server](https://www.npmjs.com/package/json-server) rodando o arquivo [server/db.json] em um endereço visível ao emulador usado;
-- Ter um servidor de Autenticação [JSON-Server-Auth](https://www.npmjs.com/package/json-server-auth) rodando o arquivo [server/db.json] em um endereço visível ao emulador usado;
+- Ter um servidor [JSON-Server](https://www.npmjs.com/package/json-server) na versão <span style="color:red">0.17.4</span> rodando o arquivo [server/db.json] em um endereço visível ao emulador usado;
+- Ter um servidor de Autenticação [JSON-Server-Auth](https://www.npmjs.com/package/json-server-auth) na versão <span style="color:red">2.1.0</span> rodando o arquivo [server/db.json] em um endereço visível ao emulador usado;
 
 ## 🏁 JSON-Server
 Acessar diretório que armazena o db.json
