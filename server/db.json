@@ -1,5 +1,11 @@
 {
-  "users" : [],
+  "users": [
+    {
+      "email": "kelvin@email.com",
+      "password": "$2a$10$c.ukNBP9Q76becxbkNb.V.UpDSRtnIU.7X9QsEiljH4OliKKhnjeO",
+      "id": 1
+    }
+  ],
   "learnhttp": [
     {
       "id": "4e3f",
