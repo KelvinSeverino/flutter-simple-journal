@@ -65,8 +65,8 @@ class AuthService {
     prefs.setString("email", email);
     prefs.setInt("id", id);
 
-    Object? tokenSaved = prefs.get("accessToken");
-    print(tokenSaved);
+    // Object? tokenSaved = prefs.get("accessToken");
+    // print(tokenSaved);
   }
 }
 
